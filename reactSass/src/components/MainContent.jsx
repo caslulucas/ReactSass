@@ -1,8 +1,17 @@
 import "../style/components/mainContent.sass"
 
-const MainContent = () => {
+import AboutContainer from "./AboutContainer"
+import TechnologiesContainer from "./TechnologiesContainer"
+import ProjectsContainer from "./ProjectsContainer"
+
+function MainContent() {
   return (
-    <main id="main-content"></main>
+    <main id="main-content">
+      <AboutContainer />
+      <TechnologiesContainer />
+      <ProjectsContainer />
+
+    </main>
   )
 }
 
